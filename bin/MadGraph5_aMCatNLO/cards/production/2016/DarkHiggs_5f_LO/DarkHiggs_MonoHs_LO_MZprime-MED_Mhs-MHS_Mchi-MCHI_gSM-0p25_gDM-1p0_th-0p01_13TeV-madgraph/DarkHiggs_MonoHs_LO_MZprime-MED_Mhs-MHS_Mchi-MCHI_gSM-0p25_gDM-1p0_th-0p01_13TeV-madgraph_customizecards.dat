@@ -1,0 +1,6 @@
+#put card customizations here (change top and higgs mass for example)
+set param_card mass  55 MED
+set param_card mass  54 XHS
+set param_card mass  52 XMASS
+set param_card decay 54 auto
+set param_card decay 55 auto
