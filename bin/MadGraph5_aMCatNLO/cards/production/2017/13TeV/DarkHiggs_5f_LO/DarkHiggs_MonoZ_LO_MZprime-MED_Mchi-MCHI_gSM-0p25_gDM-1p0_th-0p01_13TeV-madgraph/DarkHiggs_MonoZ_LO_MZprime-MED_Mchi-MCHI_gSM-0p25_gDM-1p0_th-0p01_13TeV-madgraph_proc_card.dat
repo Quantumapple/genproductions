@@ -1,5 +1,5 @@
 import ZpHiggs_UFO_MED_70_XMASS_PROC
 # Define multiparticle labels
-generate       p p > zp z , zp > dm dm , z > j j
-add process    p p > zp z j , zp > dm dm , z > j j
+generate       p p > zp > dm dm z, (z > j j)
+add process    p p > zp > dm dm z j, (z > j j)
 output DarkHiggs_MonoZ_LO_MZprime-MED_Mchi-MCHI_gSM-0p25_gDM-1p0_th-0p01_13TeV-madgraph 
